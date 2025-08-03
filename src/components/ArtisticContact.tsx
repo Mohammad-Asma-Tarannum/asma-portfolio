@@ -81,7 +81,7 @@ const ArtisticContact: React.FC = () => {
                     PRIMARY CONTACT
                   </div>
                   <div className="text-xl font-light mb-2 hover-underline cursor-pointer">
-                    mohammedasmatarannum@gmail.com
+                    mdasmatarannum@gmail.com
                   </div>
                   <div className="text-sm text-gray-400">
                     Best for project inquiries and collaborations
@@ -95,30 +95,37 @@ const ArtisticContact: React.FC = () => {
                   </div>
                   
                   <div className="space-y-4">
-                    <div className="flex justify-between items-center py-3 border-b border-gray-800">
+                    <a href="https://www.linkedin.com/in/asma-tarannum-mohammad-190160359/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex justify-between items-center py-3 border-b border-gray-800">
                       <span className="text-lg font-light hover-underline cursor-pointer">
                         LinkedIn
                       </span>
                       <span className="mono-text text-xs text-gray-500">
-                        /in/mohammedasma
+                        /in/Asma Tarannum Mohammad
                       </span>
                     </div>
-                    
-                    <div className="flex justify-between items-center py-3 border-b border-gray-800">
+                    <a href="https://github.com/Mohammad-Asma-Tarannum"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="flex justify-between items-center py-3 border-b border-gray-800">
                       <span className="text-lg font-light hover-underline cursor-pointer">
                         GitHub
                       </span>
                       <span className="mono-text text-xs text-gray-500">
-                        /mohammedasma
+                        /Mohammad-Asma-Tarannum
                       </span>
                     </div>
-                    
-                    <div className="flex justify-between items-center py-3 border-b border-gray-800">
+                    <a href="https://mohammad-asma-tarannum.github.io/asma-portfolio/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex justify-between items-center py-3 border-b border-gray-800">
                       <span className="text-lg font-light hover-underline cursor-pointer">
                         Portfolio
                       </span>
                       <span className="mono-text text-xs text-gray-500">
-                        mohammedasma.dev
+                        https://mohammad-asma-tarannum.github.io/asma-portfolio/
                       </span>
                     </div>
                   </div>
