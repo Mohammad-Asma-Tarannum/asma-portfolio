@@ -84,7 +84,7 @@ const ArtisticContact: React.FC = () => {
                    className="text-xl font-light mb-2 hover-underline cursor-pointer">
                     mdasmatarannum@gmail.com
                   </a>
-                  (If link doesn't work, copy: mdasmatarannum@gmail.com)
+                  
                   <div className="text-sm text-gray-400">
                     Best for project inquiries and collaborations
                   </div>
