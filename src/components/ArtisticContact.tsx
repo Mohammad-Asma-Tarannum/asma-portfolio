@@ -80,9 +80,11 @@ const ArtisticContact: React.FC = () => {
                   <div className="mono-text text-xs text-gray-500 mb-4 tracking-wider">
                     PRIMARY CONTACT
                   </div>
-                  <div className="text-xl font-light mb-2 hover-underline cursor-pointer">
+                  <a href="mailto:mdasmatarannum@gmail.com"
+                   className="text-xl font-light mb-2 hover-underline cursor-pointer">
                     mdasmatarannum@gmail.com
-                  </div>
+                  </a>
+                  (If link doesn't work, copy: mdasmatarannum@gmail.com)
                   <div className="text-sm text-gray-400">
                     Best for project inquiries and collaborations
                   </div>
@@ -104,8 +106,7 @@ const ArtisticContact: React.FC = () => {
                       </span>
                       <span className="mono-text text-xs text-gray-500">
                         /in/Asma Tarannum Mohammad
-                      </span>
-                    </div>
+                      </span></a>
                     <a href="https://github.com/Mohammad-Asma-Tarannum"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -115,8 +116,8 @@ const ArtisticContact: React.FC = () => {
                       </span>
                       <span className="mono-text text-xs text-gray-500">
                         /Mohammad-Asma-Tarannum
-                      </span>
-                    </div>
+                      </span></a>
+                   
                     <a href="https://mohammad-asma-tarannum.github.io/asma-portfolio/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -125,9 +126,9 @@ const ArtisticContact: React.FC = () => {
                         Portfolio
                       </span>
                       <span className="mono-text text-xs text-gray-500">
-                        https://mohammad-asma-tarannum.github.io/asma-portfolio/
-                      </span>
-                    </div>
+                         /asma-portfolio/
+                      </span></a>
+                    
                   </div>
                 </div>
 
@@ -146,9 +147,10 @@ const ArtisticContact: React.FC = () => {
 
                 {/* Resume download */}
                 <div className="text-center pt-8">
-                  <button className="geometric-border bg-white text-black px-8 py-4 hover:bg-gray-100 transition-all duration-500 text-sm font-light tracking-wider w-full">
+                  <a href="https://drive.google.com/file/d/1m6E4LQ_NCwMEGWd9tXJwrja5m1ITsgIw/view?usp=sharing"
+                   className="geometric-border bg-white text-black px-8 py-4 hover:bg-gray-100 transition-all duration-500 text-sm font-light tracking-wider w-full">
                     DOWNLOAD RESUME
-                  </button>
+                  </a>
                   <div className="mono-text text-xs text-gray-500 mt-3">
                     Last updated: January 2025
                   </div>

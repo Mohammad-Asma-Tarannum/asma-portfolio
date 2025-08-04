@@ -76,7 +76,7 @@ const ArtisticHero: React.FC = () => {
                     
                     <div className="geometric-border p-6 bg-gray-50">
                       <div className="mono-text text-xs text-gray-500 mb-2">EXPERIENCE</div>
-                      <div className="text-sm font-light">2+ Years</div>
+                      <div className="text-sm font-light">6 months</div>
                       <div className="text-sm text-gray-600">Frontend Development</div>
                     </div>
                   </div>
@@ -89,10 +89,23 @@ const ArtisticHero: React.FC = () => {
               <div className="grid grid-cols-12 gap-4">
                 <div className="col-span-12 md:col-span-3">
                   <div className="mono-text text-xs text-gray-500 mb-4">CONTACT</div>
-                  <div className="text-sm space-y-2">
-                    <div className="hover-underline cursor-pointer">mohammedasmatarannum@gmail.com</div>
-                    <div className="hover-underline cursor-pointer">linkedin.com/in/mohammedasma</div>
-                    <div className="hover-underline cursor-pointer">github.com/mohammedasma</div>
+                  <div className="text-sm space-y-2 ">
+                    <div className="flex justify-between items-center border-gray-300 pb-1">
+    
+                    <a href="mailto:mdasmatarannum@gmail.com"
+                     className="hover-underline cursor-pointer">mdasmatarannum@gmail.com</a></div>
+                    <div className="flex justify-between items-center border-gray-300 pb-1">
+                      <a href="https://www.linkedin.com/in/asma-tarannum-mohammad-190160359/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="hover-underline cursor-pointer">linkedin.com/in/Asma Tarannum Mohammad</a></div>
+                     <div className="flex justify-between items-center border-gray-300 pb-1">
+                      <a href="https://github.com/Mohammad-Asma-Tarannum"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="hover-underline cursor-pointer">github.com/Mohammad-Asma-Tarannum</a></div>
+      
+
                   </div>
                 </div>
                 
@@ -105,9 +118,15 @@ const ArtisticHero: React.FC = () => {
                 
                 <div className="col-span-12 md:col-span-3 text-right">
                   <div className="mono-text text-xs text-gray-500 mb-4">RESUME</div>
-                  <button className="text-sm hover-underline font-light">
+                  <a
+  href="https://drive.google.com/file/d/1m6E4LQ_NCwMEGWd9tXJwrja5m1ITsgIw/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover-underline inline-block cursor-pointer"
+>
+      
                     Download PDF
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
