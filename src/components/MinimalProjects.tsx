@@ -8,7 +8,7 @@ const MinimalProjects: React.FC = () => {
       description: "Dynamic blog platform with routing and state management. Features clean UI design and mobile-first responsive approach.",
       tech: ["React.js", "React Router", "CSS3"],
       type: "Web Application",
-      status: "Completed",
+      status: "ideation",
       codeLink: "https://github.com/mohammad-asma-tarannum/blog-app"
     },
     {
@@ -23,11 +23,12 @@ const MinimalProjects: React.FC = () => {
     },
     {
       id: "03",
-      title: "Weather Forecast App",
+      title: "Weather App",
       description: "Real-time weather application using OpenWeatherMap API. Fully responsive design with CSS Grid and Flexbox layout.",
       tech: ["JavaScript", "REST API", "CSS Grid", "Flexbox"],
       type: "Web Application",
-      status: "Live",
+      status: "Completed",
+      demoLink:"https://mohammad-asma-tarannum.github.io/weather-app/",
       codeLink: "https://github.com/mohammad-asma-tarannum/weather-app"
     }
   ];
