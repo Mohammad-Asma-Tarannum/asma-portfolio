@@ -8,15 +8,18 @@ const MinimalProjects: React.FC = () => {
       description: "Dynamic blog platform with routing and state management. Features clean UI design and mobile-first responsive approach.",
       tech: ["React.js", "React Router", "CSS3"],
       type: "Web Application",
-      status: "Completed"
+      status: "Completed",
+      codeLink: "https://github.com/mohammad-asma-tarannum/blog-app"
     },
     {
       id: "02",
-      title: "Task Management Mobile App",
+      title: "Todo App",
       description: "Cross-platform mobile application for personal task management with local storage and intuitive user interface.",
       tech: ["React Native", "AsyncStorage", "JavaScript"],
       type: "Mobile App",
-      status: "Completed"
+      status: "Completed",
+      demoLink:"https://mohammad-asma-tarannum.github.io/todo-app/",
+      codeLink: "https://github.com/mohammad-asma-tarannum/todo-app"
     },
     {
       id: "03",
@@ -24,7 +27,8 @@ const MinimalProjects: React.FC = () => {
       description: "Real-time weather application using OpenWeatherMap API. Fully responsive design with CSS Grid and Flexbox layout.",
       tech: ["JavaScript", "REST API", "CSS Grid", "Flexbox"],
       type: "Web Application",
-      status: "Live"
+      status: "Live",
+      codeLink: "https://github.com/mohammad-asma-tarannum/weather-app"
     }
   ];
 
@@ -148,9 +152,26 @@ const MinimalProjects: React.FC = () => {
 
                     <div className="pt-4">
                       <div className="flex space-x-4 justify-end">
-                        <button className="mono-text text-xs hover-underline">
-                          VIEW CODE
-                        </button>
+                        {project.codeLink &&(
+                          <a href={project.codeLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mono-text text-xs hover-underline"
+                          >
+                            VIEW CODE
+                          </a>
+                        )}
+                        {project.demoLink && (
+                          <a
+                          href={project.demoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mono-text text-xs hover-underline"
+                          >
+                            LIVE DEMO
+                          </a>
+                        )}
+                        
                         {project.status === 'Live' && (
                           <button className="mono-text text-xs hover-underline">
                             LIVE DEMO
