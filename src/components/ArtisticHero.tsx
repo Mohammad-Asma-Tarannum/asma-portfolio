@@ -119,7 +119,7 @@ const ArtisticHero: React.FC = () => {
                 <div className="col-span-12 md:col-span-3 text-right">
                   <div className="mono-text text-xs text-gray-500 mb-4">RESUME</div>
                   <a
-  href="https://drive.google.com/file/d/1oyvZlNNIu0xJuxfv-LVOSXJkdzFj9fe8/view?usp=sharing"
+  href="https://drive.google.com/file/d/1jjr7JYUYliH-GUuNNLrevMw15hIkoxCd/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="hover-underline inline-block cursor-pointer"
