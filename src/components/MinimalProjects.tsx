@@ -8,7 +8,7 @@ const MinimalProjects: React.FC = () => {
       description: "Dynamic blog platform with routing and state management. Features clean UI design and mobile-first responsive approach.",
       tech: ["React.js", "React Router", "CSS3"],
       type: "Web Application",
-      status: "ideation",
+      status: "Ideation",
       codeLink: "https://github.com/mohammad-asma-tarannum/blog-app"
     },
     {
