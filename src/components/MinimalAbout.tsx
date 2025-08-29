@@ -49,7 +49,7 @@ const MinimalAbout: React.FC = () => {
                 </p>
                 
                 <p>
-                  I specialize in React and React Native development, focusing on 
+                  I specialize in React development, focusing on 
                   responsive, accessible, and performant applications. Currently 
                   expanding my skill set with backend technologies including Node.js 
                   and Express.

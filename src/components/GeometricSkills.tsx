@@ -4,7 +4,7 @@ const GeometricSkills: React.FC = () => {
   const skillCategories = [
     {
       title: "Frontend Development",
-      skills: ["React.js", "React Native", "JavaScript (ES6+)", "HTML5", "CSS3", "TypeScript"],
+  skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "TypeScript"],
       level: "Advanced"
     },
     {

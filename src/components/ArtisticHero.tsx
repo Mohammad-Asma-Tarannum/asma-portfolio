@@ -43,7 +43,7 @@ const ArtisticHero: React.FC = () => {
                 
                 <div className="fade-in fade-in-delay-2 max-w-md">
                   <p className="text-lg font-light leading-relaxed mb-8 text-gray-800">
-                    Frontend Developer specializing in React & React Native.
+                    Frontend Developer specializing in React.
                     Creating digital experiences with precision and purpose.
                   </p>
                   

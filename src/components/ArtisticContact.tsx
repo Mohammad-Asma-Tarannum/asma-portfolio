@@ -170,7 +170,7 @@ const ArtisticContact: React.FC = () => {
                 <span className="text-gray-400">TARANNUM</span>
               </div>
               <div className="mono-text text-xs text-gray-500">
-                Frontend Developer • React & React Native Specialist
+                Frontend Developer • React Specialist
               </div>
             </div>
             
