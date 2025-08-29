@@ -15,8 +15,8 @@ const MinimalProjects: React.FC = () => {
       id: "02",
       title: "Todo App",
       description: "Cross-platform mobile application for personal task management with local storage and intuitive user interface.",
-      tech: ["React Native", "AsyncStorage", "JavaScript"],
-      type: "Mobile App",
+      tech: ["React", "AsyncStorage", "JavaScript"],
+      type: "Web Application",
       status: "Completed",
       demoLink:"https://mohammad-asma-tarannum.github.io/todo-app/",
       codeLink: "https://github.com/mohammad-asma-tarannum/todo-app"
