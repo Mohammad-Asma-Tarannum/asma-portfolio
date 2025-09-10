@@ -44,7 +44,7 @@ const ArtisticHero: React.FC = () => {
                 <div className="fade-in fade-in-delay-2 max-w-md">
                   <p className="text-lg font-light leading-relaxed mb-8 text-gray-800">
                     Frontend Developer specializing in React.
-                    Creating digital experiences with precision and purpose.
+                    Creating digital solutions with precision and purpose.
                   </p>
                   
                   <div className="flex items-center space-x-6 mono-text text-sm">
@@ -75,9 +75,8 @@ const ArtisticHero: React.FC = () => {
                     </div>
                     
                     <div className="geometric-border p-6 bg-gray-50">
-                      <div className="mono-text text-xs text-gray-500 mb-2">EXPERIENCE</div>
-                      <div className="text-sm font-light">6 months</div>
-                      <div className="text-sm text-gray-600">Frontend Development</div>
+                      {/* <div className="mono-text text-xs text-gray-500 mb-2">EXPERIENCE</div> */}
+                      {/* Removed duration and frontend development label as requested */}
                     </div>
                   </div>
                 </div>
