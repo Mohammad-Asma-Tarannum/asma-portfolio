@@ -11,14 +11,7 @@ const ArtisticHero: React.FC = () => {
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 mix-blend-difference">
           <div className="flex justify-between items-center p-6 md:p-8">
-            <div className="text-white font-mono text-sm tracking-wider">
-              MA
-            </div>
-            <div className="flex space-x-8 text-white text-sm">
-              <button className="hover-underline tracking-wide">WORK</button>
-              <button className="hover-underline tracking-wide">ABOUT</button>
-              <button className="hover-underline tracking-wide">CONTACT</button>
-            </div>
+            {/* Removed CONTACT button as requested */}
           </div>
         </nav>
 
