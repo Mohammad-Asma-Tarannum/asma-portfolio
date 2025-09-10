@@ -67,10 +67,7 @@ const ArtisticHero: React.FC = () => {
                       <div className="text-sm text-gray-600">Telangana, India</div>
                     </div>
                     
-                    <div className="geometric-border p-6 bg-gray-50">
-                      {/* <div className="mono-text text-xs text-gray-500 mb-2">EXPERIENCE</div> */}
-                      {/* Removed duration and frontend development label as requested */}
-                    </div>
+                    
                   </div>
                 </div>
               </div>
