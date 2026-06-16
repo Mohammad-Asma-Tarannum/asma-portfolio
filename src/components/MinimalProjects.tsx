@@ -9,7 +9,8 @@ const MinimalProjects: React.FC = () => {
       tech: ["React.js", "React Router", "CSS3"],
       type: "Web Application",
       status: "Ideation",
-      codeLink: "https://github.com/mohammad-asma-tarannum/blog-app"
+      demoLink:"https://mohammad-asma-tarannum.github.io/Responsive-Blog-Application/",
+      codeLink: "https://github.com/Mohammad-Asma-Tarannum/Responsive-Blog-Application"
     },
     {
       id: "02",
