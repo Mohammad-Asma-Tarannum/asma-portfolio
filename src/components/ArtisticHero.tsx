@@ -58,7 +58,7 @@ const ArtisticHero: React.FC = () => {
                     <div className="geometric-border p-4 sm:p-6 bg-gray-50">
                       <div className="mono-text text-xs text-gray-500 mb-2">EDUCATION</div>
                       <div className="text-sm font-light">B.Tech CSE (Data Science)</div>
-                      <div className="text-sm text-gray-600">CGPA: 8.82</div>
+                      <div className="text-sm text-gray-600">CGPA: 8.92</div>
                     </div>
                     
                     <div className="geometric-border p-4 sm:p-6 bg-white border">
@@ -108,7 +108,7 @@ const ArtisticHero: React.FC = () => {
                 <div className="col-span-12 sm:col-span-6 md:col-span-3 text-right">
                   <div className="mono-text text-xs text-gray-500 mb-4">RESUME</div>
                   <a
-  href="https://drive.google.com/file/d/1jjr7JYUYliH-GUuNNLrevMw15hIkoxCd/view?usp=sharing"
+  href="https://drive.google.com/file/d/1eoSF3Z4BYrRaHHg24zRp_-wqqjGfPNdF/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="hover-underline inline-block cursor-pointer"

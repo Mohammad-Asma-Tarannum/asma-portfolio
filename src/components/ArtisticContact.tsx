@@ -147,7 +147,7 @@ const ArtisticContact: React.FC = () => {
 
                 {/* Resume download */}
                 <div className="text-center pt-8">
-                  <a href="https://drive.google.com/file/d/1jjr7JYUYliH-GUuNNLrevMw15hIkoxCd/view?usp=sharing"
+                  <a href="https://drive.google.com/file/d/1eoSF3Z4BYrRaHHg24zRp_-wqqjGfPNdF/view?usp=sharing"
                    className="geometric-border bg-white text-black px-8 py-4 hover:bg-gray-100 transition-all duration-500 text-sm font-light tracking-wider w-full">
                     DOWNLOAD RESUME
                   </a>

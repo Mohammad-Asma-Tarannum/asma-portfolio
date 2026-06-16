@@ -39,7 +39,7 @@ const MinimalAbout: React.FC = () => {
                 <p>
                   Currently pursuing B.Tech in Computer Science Engineering with a 
                   specialization in Data Science from Malla Reddy Engineering College, 
-                  maintaining a CGPA of 8.82.
+                  maintaining a CGPA of 8.92.
                 </p>
                 
                 <p>
@@ -76,7 +76,7 @@ const MinimalAbout: React.FC = () => {
                       Data Science Specialization
                     </div>
                     <div className="mono-text text-xs text-gray-500">
-                      Malla Reddy Engineering College • CGPA 8.82
+                      Malla Reddy Engineering College • CGPA 8.92
                     </div>
                   </div>
                   
